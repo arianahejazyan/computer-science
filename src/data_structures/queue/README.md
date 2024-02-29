@@ -1,0 +1,1 @@
+A <b>queue</b> is a data structure that follows the First-In-First-Out (FIFO) principle.
