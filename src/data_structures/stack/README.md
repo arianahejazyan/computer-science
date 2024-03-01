@@ -1,1 +1,0 @@
-A <b>stack</b> is a data structure that follows the Last-In-First-Out (LIFO) principle.
