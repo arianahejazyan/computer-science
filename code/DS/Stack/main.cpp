@@ -1,8 +1,8 @@
 #include "main.h"
 
 template <typename T>
-Stack<T>::Stack(size_t capacity): top(-1) {
-    arr = new Array<T>(capacity);
+Stack<T>::Stack() {
+    items = new Array<T>();
 }
 
 template <typename T>
@@ -10,22 +10,15 @@ Stack<T>::~Stack() {}
 
 template <typename T>
 void Stack<T>::push(const T& item) {
-    arr.push_back(item);
-    top++;
+    items.push_back(item);
 };
 
 template <typename T>
-T Stack<T>::pop() {
-    arr.pop_back();
-    return arr[top--];
+T& Stack<T>::pop() {
+    return items.pop_back();
 }
 
 template <typename T>
 void Stack<T>::size() const {
-    return arr.size();
-}
-
-template <typename T>
-void Stack<T>::capacity() const {
-    return arr.capacity();
+    return items.size();
 }

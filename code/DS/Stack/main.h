@@ -5,20 +5,17 @@ template<typename T>
 class Stack
 {
     private:
-        Array<T> arr;
-        size_t top;
+        Array<T> items;
 
     public:
 
-        Stack(size_t capacity);
+        Stack();
 
         ~Stack();
 
         void push(const T& item);
 
-        T pop();
+        T& pop();
 
         void size() const;
-
-        void capacity() const;
 };
