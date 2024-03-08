@@ -30,8 +30,6 @@ class Array
 
         Array& operator=(std::initializer_list<T> list);
 
-        size_t capacity() const;
-
         size_t size() const;
 
         T& operator[](size_t index) const;

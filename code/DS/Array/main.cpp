@@ -66,11 +66,6 @@ Array<T>& Array<T>::operator=(std::initializer_list<T> list) { clear();
 }
 
 template<typename T>
-size_t Array<T>::capacity() const {
-    return m_capacity;
-}
-
-template<typename T>
 size_t Array<T>::size() const {
     return m_size;
 }
