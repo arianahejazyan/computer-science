@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include "../Array/main.h"
 
 template<typename T>
