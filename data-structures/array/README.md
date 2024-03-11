@@ -8,8 +8,6 @@ An <b>array</b> is a data structure that stores a collection of elements of the 
 
 ---
 
-<p align="center" width="100%">
-
 | Methods | Time Complexity | Space Complexity | Description |
 | :- | :- | :- | :- |
 | `Array()` | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ | Constructor that creates an empty array. |
@@ -27,7 +25,6 @@ An <b>array</b> is a data structure that stores a collection of elements of the 
 | `begin()` | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ | Method that returns an iterator to the beginning of the array. |
 | `end()` | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ | Method that returns an iterator to the end of the array. |
 
-</p>
 
 $n$ represents the number of elements in the array.
 
