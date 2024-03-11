@@ -1,14 +1,14 @@
 An <b>array</b> is a data structure that stores a collection of elements of the same type in contiguous memory locations. A <b>static array</b> is an array with a fixed size that cannot be resized after initialization. A <b>dynamic array</b> is an array with automatic resizing, allowing elements to be added or removed dynamically.
 
-<div style="text-align:center;">
 
-![array](images/array.png)
+<p align="center" width="100%">
+    <img src="images/array.png"> 
+</p>
 
-</div>
 
 ---
 
-<div style="text-align:center;">
+<p align="center" width="100%">
 
 | Methods | Time Complexity | Space Complexity | Description |
 | :- | :- | :- | :- |
@@ -27,7 +27,7 @@ An <b>array</b> is a data structure that stores a collection of elements of the 
 | `begin()` | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ | Method that returns an iterator to the beginning of the array. |
 | `end()` | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ | Method that returns an iterator to the end of the array. |
 
-</div>
+</p>
 
 $n$ represents the number of elements in the array.
 
