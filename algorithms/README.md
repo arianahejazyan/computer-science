@@ -1,1 +1,0 @@
-An <b>algorithm</b> is a set of instructions for solving a problem or completing a task.
